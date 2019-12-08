@@ -1,0 +1,11 @@
+image: node:lts-slim
+
+pages:
+  script:
+    - date
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
+
